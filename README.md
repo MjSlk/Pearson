@@ -10,6 +10,7 @@ The differential equation is
 $a_i$ are free parameters (Pearson coefficients) and can be linked to the non-centered statistical moments via the recurrent equation:
 
 $$a_0m_n+na_1m_{n-1}+(n+1)a_2m_n+(n+2)a_3m_{n+1}=-m_{n+1}$$
+
 By rewriting the previous equation for n = 0, 1, 2, 3 and by taking into account $m_0 = 1$ (sum of probabilities = 1), we get a system of 4 equations linking each of the $a_i$ to $m_1, m_2, m_3, m_4$.
 
 This modeling approach is applied to the PDF of the logarithmic overdensity field defined as
