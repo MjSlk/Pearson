@@ -21,3 +21,12 @@ To quantify the goodness of fit we compute the Kullback-Leibler divergency
 
 
 The data on which we test this approach are the density field of the fiducial cosmological model computed from Quijote N-Body simulations (https://quijote-simulations.readthedocs.io/)
+
+Dependencies
+
+The project was developed with the following library versions. Running with other versions may crash or produce incorrect results.
+
+    Python 3.8.10
+    numpy==1.19.5
+    matplotlib==4.0
+
