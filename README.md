@@ -1,11 +1,11 @@
 # Pearson
 
-Modelising matter overdensity probablity density function (PDF) with Pearson differential equation
+Modeling matter overdensity probablity density function (PDF) with Pearson differential equation
 
 The differential equation is
 
 
-   $$\frac{1}{f}\frac{df}{dx} = Q(x) = \frac{x-a_0}{a_1+a_2x+a_3x^2}$$
+   $$\frac{1}{f}\frac{df}{dx} = \frac{x-a_0}{a_1+a_2x+a_3x^2}$$
 
 $a_i$ are free parameters (Pearson coefficients) and can be linked to the non-centered statistical moments via the recurrent equation:
 
@@ -25,9 +25,10 @@ The data on which we test this approach are the density field of the fiducial co
 
 Dependencies
 
-The project was developed with the following library versions. Running with other versions may crash or produce incorrect results.
+The project was developed with the following library versions:
 
     Python 3.8.10
-    numpy==1.19.5
-    matplotlib==4.0
+    numpy==1.22.3
+    scipy==1.7.3
+    matplotlib==3.5.2
 
